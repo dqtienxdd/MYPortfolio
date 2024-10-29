@@ -1,8 +1,8 @@
 "use client";
 import React from 'react'
 import { Spotlight } from './ui/Spotlight';
-import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "./ui/herogrid";
+
+import { HeroHighlight } from "./ui/herogrid";
 import {TextGenerateEffect} from "./ui/TextGeneratedEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
