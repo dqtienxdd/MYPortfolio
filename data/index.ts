@@ -107,11 +107,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "A project for RTOS_VGU",
-      des: "A real time system developed in IDE cube.",
-      img: "/rtos.png",
+      title: "A chat bot for The 7 habits of highly effective people",
+      des: "A chatbot created by streamlit and openAI.",
+      img: "/habit.png",
       iconLists: ["/c.svg"],
-      link: "https://github.com/dqtienxdd/RTOS_Grieffingdoor",
+      link: "https://github.com/duydinhthai27/habit_coach",
     },
   ];
   
