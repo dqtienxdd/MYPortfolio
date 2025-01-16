@@ -5,11 +5,11 @@ export const navItems = [
     { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
-  
+ 
   export const gridItems = [
     {
       id: 1,
-      title: "I have excellent communicative and interpersonal skills. ",
+      title: "I have excellent communicative and interpersonal skills.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I'm flexible with time zone communications.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -30,7 +30,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "Constantly improving my skills.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -47,14 +47,13 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/bgr.png",
     },
-  
     {
       id: 5,
-      title: "Currently learning and building Deep Learning models",
+      title: "Building expertise in software design and cloud solutions.",
       description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
+      className: "md:col-span-3 md:row-span-3 lg:row-span-2 lg:col-span-3",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 ",
+      titleClassName: "justify-center md:justify-start lg:justify-center text-sm leading-tight",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
@@ -64,21 +63,26 @@ export const navItems = [
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+      titleClassName: "justify-center md:max-w-full max-w-60 text-center text-sm",
       img: "",
       spareImg: "",
     },
     {
-        id: 7,
-        title: "I have a strong passion for AI and am actively learning and exploring its potential to create innovative solutions.",
-        description: "",
-        className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-        imgClassName: "",
-        titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-        img: "",
-        spareImg: "/grid.svg",
-      },
+      id: 7,
+      title: "I am passionate about developing modern web technologies that enhance user experience and make interacting with products seamless and enjoyable.",
+      description: "",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-3",
+      imgClassName: "",
+      titleClassName:
+        "justify-center text-left text-sm leading-relaxed tracking-wide px-4 md:px-8 lg:px-12",
+      img: "",
+      spareImg: "/grid.svg",
+    },
+
   ];
+  
+  
+  
   
   export const projects = [
     {
@@ -99,18 +103,18 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Distributed System - SmartFarming",
-      des: "A distributed system is used to measure humidity, temperature and luminosity.",
-      img: "/farm.svg",
-      iconLists: ["/js.svg", "/css-icon.svg", "/ts.svg"],
-      link: "https://github.com/dqtienxdd/DistributedSystem",
+      title: "Smart Attendence Check",
+      des: "This project implements a real-time face recognition and attendance tracking system with liveness detection. It ensures accurate identification of individuals and prevents spoofing attacks..",
+      img: "/face.jpg",
+      iconLists: ["/python.svg"],
+      link: "https://github.com/DoDucToan2811/attendance-system",
     },
     {
       id: 4,
       title: "A chat bot for The 7 habits of highly effective people",
       des: "A chatbot created by streamlit and openAI.",
       img: "/habit.png",
-      iconLists: ["/c.svg"],
+      iconLists: ["/python.svg"],
       link: "https://github.com/duydinhthai27/habit_coach",
     },
   ];
@@ -216,7 +220,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link: "https://github.com/dqtienxdd/DistributedSystem",
+      link: "https://github.com/dqtienxdd",
       
     },
     {
@@ -227,6 +231,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
-      link: "https://www.linkedin.com/in/tien-doan-60531a300/",
+      link: "https://www.linkedin.com/in/dqtienxdd",
     },
   ];
